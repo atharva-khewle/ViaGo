@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-import { MdArrowForward } from "react-icons/md";
+import { SiGithub } from "react-icons/si";
 import SearchBar from "@/components/SearchBar";
 
 const inter = Inter({
@@ -60,13 +60,13 @@ export default function RootLayout({
             {/* Right: Quick Links */}
             <nav className="flex items-center gap-4 sm:gap-6">
               <Link 
-                href="https://orion-view-frontend.vercel.app/extra" 
+                href="https://github.com/atharva-khewle/ViaGo" 
                 target="_blank"
-                className="p-2 hover:bg-white/10 rounded-lg transition-colors text-white"
-                title="Explore Extra"
+                className="p-2 hover:bg-white/10 rounded-lg transition-colors text-zinc-300 hover:text-white"
+                title="GitHub Repository"
               >
                 <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center group-hover:border-primary/50 group-hover:bg-primary/5 transition-all">
-                  <MdArrowForward className="text-xl transform group-hover:translate-x-0.5 transition-transform" />
+                  <SiGithub className="text-lg" />
                 </div>
               </Link>
               <Link 
