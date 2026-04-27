@@ -18,7 +18,7 @@ export default async function CategoryPage({ params }: PageProps) {
   }
 
   return (
-    <main className="flex-1 max-w-7xl mx-auto px-4 py-12 w-full">
+    <main className="flex-1 max-w-7xl mx-auto px-4 pt-24 pb-12 sm:pt-32 w-full">
       <div className="mb-12 animate-fade-in">
         <Link
           href="/"

@@ -12,7 +12,7 @@ export default async function SearchResultsPage({ searchParams }: SearchPageProp
   const results = await searchSites(q || "");
 
   return (
-    <main className="flex-1 max-w-7xl mx-auto px-4 py-24 w-full">
+    <main className="flex-1 max-w-7xl mx-auto px-4 pt-24 pb-12 sm:pt-32 w-full">
       <div className="mb-12 animate-fade-in">
         <Link
           href="/"
@@ -47,7 +47,7 @@ export default async function SearchResultsPage({ searchParams }: SearchPageProp
         <div className="text-center py-24 bg-white/5 rounded-3xl animate-fade-in border border-dashed border-white/10">
           <p className="text-slate-400 mb-4 text-lg">No results found for that search.</p>
           <Link href="/" className="text-primary hover:underline font-bold">
-            Browse Categories Instead
+            Browse ViaGo Collections
           </Link>
         </div>
       )}
