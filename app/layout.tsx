@@ -20,10 +20,10 @@ export const metadata: Metadata = {
 const ViaGoLogo = () => (
   <div className="relative w-8 h-8 flex items-center justify-center">
     <svg viewBox="0 0 100 100" className="w-full h-full fill-none stroke-white stroke-[8] stroke-round" suppressHydrationWarning>
-      <path 
-        d="M20 30L50 80L80 20L50 50L20 30Z" 
-        fill="currentColor" 
-        className="text-primary opacity-20" 
+      <path
+        d="M20 30L50 80L80 20L50 50L20 30Z"
+        fill="currentColor"
+        className="text-primary opacity-20"
       />
       <path d="M20 30L50 80L80 20" />
       <path d="M50 80L50 50" className="stroke-[6]" />
@@ -60,8 +60,8 @@ export default function RootLayout({
 
             {/* Right: Quick Links */}
             <nav className="flex items-center gap-4 sm:gap-6">
-              <Link 
-                href="https://github.com/atharva-khewle/ViaGo" 
+              <Link
+                href="https://github.com/atharva-khewle/ViaGo"
                 target="_blank"
                 className="p-2 hover:bg-white/10 rounded-lg transition-colors text-zinc-300 hover:text-white"
                 title="GitHub Repository"
@@ -70,7 +70,7 @@ export default function RootLayout({
                   <SiGithub className="text-lg" />
                 </div>
               </Link>
-              <Link 
+              <Link
                 href="/"
                 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-300 hover:text-primary transition-colors"
               >
