@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8b5cf6; /* Modern Violet */
+  --color-secondary: #27272a; /* Zinc-800 */
+  --color-accent: #6d28d9; /* Deep Violet */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  --animate-fade-in: fade-in 0.5s ease-out forwards;
+  --animate-glow: glow 4s infinite alternate;
+
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes glow {
+    from { filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.2)); }
+    to { filter: drop-shadow(0 0 30px rgba(139, 92, 246, 0.4)); }
+  }
+}
+
+:root {
+  --background: #09090b; /* Zinc-950 */
+  --foreground: #fafafa; /* Zinc-50 */
+  --card-bg: #18181b; /* Zinc-900 */
+  --card-border: #27272a; /* Zinc-800 */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  .hero-gradient {
+    background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+  }
+  .glow-mesh {
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(262, 83%, 58%, 0.1) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, hsla(262, 83%, 58%, 0.05) 0, transparent 50%);
+  }
+}
