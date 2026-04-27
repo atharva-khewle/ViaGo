@@ -24,17 +24,18 @@ export default function Home() {
             {/* Slogan Group - Lighter subtitle */}
             <div className="space-y-6 mx-auto lg:mx-0">
               <p className="text-2xl sm:text-5xl text-zinc-50 font-extrabold tracking-tight leading-tight">
-                Go beyond just booking.
+                Compare every site <br />Book the best deal
               </p>
               <div className="space-y-2">
                 <p className="text-lg sm:text-2xl text-zinc-300 max-w-xl leading-snug mx-auto lg:mx-0 font-medium">
-                  Compare every option, then book it.
+                  Your trip starts where the booking stops.
+
                 </p>
-                <div className="pt-4.5">
+                {/* <div className="pt-4.5">
                   <p className="inline-block text-white font-black tracking-[0.3em] uppercase text-[10px] sm:text-xs border-l-2 border-primary pl-4 py-1">
                     Free Forever
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
