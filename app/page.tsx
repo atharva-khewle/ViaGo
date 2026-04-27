@@ -80,9 +80,15 @@ export default function Home() {
           <p className="font-bold tracking-[0.3em] uppercase text-[10px] text-zinc-300">ViaGo Directory</p>
           <div className="w-1 h-1 rounded-full bg-zinc-700"></div>
         </div>
-        <p className="max-w-md mx-auto leading-relaxed text-zinc-300">
+        <p className="max-w-md mx-auto leading-relaxed text-zinc-300 mb-4">
           &copy; {new Date().getFullYear()} ViaGo. All travel resources are independently curated.
         </p>
+        <a 
+          href="mailto:OrionViewWebsite@gmail.com" 
+          className="inline-block text-zinc-400 hover:text-primary transition-colors text-xs font-medium bg-white/5 px-4 py-2 rounded-lg border border-white/5 hover:border-primary/30"
+        >
+          Support: OrionViewWebsite@gmail.com
+        </a>
       </footer>
     </main>
   );
