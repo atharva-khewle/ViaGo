@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import { SiGithub } from "react-icons/si";
 import SearchBar from "@/components/SearchBar";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -80,6 +81,7 @@ export default function RootLayout({
         </header>
 
         {children}
+        <Analytics />
       </body>
     </html>
   );
