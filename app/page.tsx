@@ -11,8 +11,8 @@ export default function Home() {
           {/* Hero Text Block */}
           <div className="flex-1 text-center lg:text-left animate-fade-in order-2 lg:order-1">
             {/* Badge - Lighter text */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/20 rounded-full text-[10px] sm:text-xs font-semibold text-zinc-300 mb-6 mx-auto lg:mx-0">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+            <div className="inline-flex items-center gap-3 px-4 py-2 bg-white/5 border border-white/20 rounded-full text-sm sm:text-base lg:text-lg font-semibold text-zinc-300 mb-6 mx-auto lg:mx-0">
+              <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
               Curated by travellers, for travellers
             </div>
 
@@ -83,8 +83,8 @@ export default function Home() {
         <p className="max-w-md mx-auto leading-relaxed text-zinc-300 mb-4">
           &copy; {new Date().getFullYear()} ViaGo. All travel resources are independently curated.
         </p>
-        <a 
-          href="mailto:OrionViewWebsite@gmail.com" 
+        <a
+          href="mailto:OrionViewWebsite@gmail.com"
           className="inline-block text-zinc-400 hover:text-primary transition-colors text-xs font-medium bg-white/5 px-4 py-2 rounded-lg border border-white/5 hover:border-primary/30"
         >
           Support: OrionViewWebsite@gmail.com
