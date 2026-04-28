@@ -28,7 +28,7 @@ export default function Home() {
               </p>
               <div className="space-y-2">
                 <p className="text-lg sm:text-2xl text-zinc-300 max-w-xl leading-snug mx-auto lg:mx-0 font-medium">
-                  Your trip starts where the booking stops.
+                  Your trip starts where the booking stops
 
                 </p>
                 {/* <div className="pt-4.5">
