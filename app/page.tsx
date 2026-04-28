@@ -24,7 +24,7 @@ export default function Home() {
             {/* Slogan Group - Lighter subtitle */}
             <div className="space-y-6 mx-auto lg:mx-0">
               <p className="text-2xl sm:text-5xl text-zinc-50 font-extrabold tracking-tight leading-tight">
-                Compare every site <br />Book the best deal
+                Compare every site, <br />Book the best deal
               </p>
               <div className="space-y-2">
                 <p className="text-lg sm:text-2xl text-zinc-300 max-w-xl leading-snug mx-auto lg:mx-0 font-medium">
